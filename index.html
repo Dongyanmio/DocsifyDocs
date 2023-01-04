@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-    <title>冬烟的博客</title>
+    <title>维度服务器文档站</title>
 </head>
 
 <body>
-    <div id="app">加载中</div>
+    <div id="app">加载中...</div>
     <script>
         window.$docsify = {
             //...
             repo: 'https://github.com/Dongyanmio/DocsifyDocs',
-            name: '冬烟的博客',
+            name: '维度服务器文档站',
             coverpage: true,
-            loadSidebar: true
+            loadSidebar: true,
+            count: {
+                countable: true,
+                fontsize: '0.9em',
+                color: 'rgb(90,90,90)',
+                language: 'chinese'
+            }
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="https://unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 
 </html>

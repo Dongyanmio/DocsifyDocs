@@ -1,2 +1,4 @@
-* [冬烟的博客-主页](/)
-* [【神奇代码岛】关于神奇代码岛](/AboutBox3.md)
+* [首页](/)
+* [管理员名单](/management_list.md)
+* [服务器更新日志](/update_log.md)
+* [捐赠我们](https://afdian.net/a/dongyanmio)
